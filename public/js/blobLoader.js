@@ -53,6 +53,7 @@
 
     function storeData(data, key) {
         localStorage.setItem(key, data)
+        fileStoredMessage(key)
         trace('Data stored as ' + key)
     }
 

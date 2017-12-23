@@ -4,8 +4,10 @@ html(lang="en")
   head
     title= 'Hello Leecher'
   body
-    input(id="seeder-id")
+    div(class='id-holder')
+    div(class='seeder-id-holder')
     button(onclick="requestData()") Go
+    br
     video(controls id="video")
     script(src="http://cdn.peerjs.com/0.3/peer.min.js")
     script(type='text/javascript' src="/js/leecher.js")
